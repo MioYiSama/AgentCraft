@@ -1,0 +1,5 @@
+name: AgentCraft
+version: '${version}'
+main: io.github.mioyi.agentcraft.bukkit.AgentCraftPlugin
+api-version: '26.3'
+description: LLM agents that control fake players

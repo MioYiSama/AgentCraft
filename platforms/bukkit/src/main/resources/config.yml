@@ -1,0 +1,8 @@
+llm:
+  # OpenAI Responses API. Base URL includes the version prefix, e.g. https://api.openai.com/v1 (requests go to <base-url>/responses)
+  api-key: ""
+  base-url: "https://api.openai.com/v1"
+  model: "gpt-5"
+agent:
+  # max LLM requests per run before the agent is forced idle
+  max-iterations: 100
